@@ -1,0 +1,59 @@
+#Playground{
+    margin-top: 30px;
+}
+
+.boardCell{
+    margin-top: -7px;
+    margin-right: -1px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #999;
+}
+
+.player{
+    background-image: url("images/worker.jpg") !important;
+    background-size: contain;
+}
+
+.goals{
+    background-image: url("images/goal.png");
+    background-size: contain;
+}
+
+.boxes{
+    background-image: url("images/box.jpeg") !important;
+    background-size: contain;
+}
+
+.walls{
+    background-image: url("images/wall.jpg");
+    background-size: contain;
+}
+
+.floors{
+    background-image: url("images/floor.png");
+    background-size: contain;
+}
+
+.levelCollection{
+    margin-top:10px;
+}
+
+.levelCollection select{
+    width: 120px;
+    height: 40px;
+    font-size: 22px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.leveInfoForm{
+    margin-top: 50px;
+}
+.leveInfoForm div{
+    margin-bottom: 10px;
+}
